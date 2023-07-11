@@ -1,0 +1,66 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    height: 850px;
+    background-color: pink;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner .description{
+    margin-top: 170px;
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner img{
+    height: 800px;
+    width: 635px;
+}
+button{
+    height: 64px;
+    width: 177px;
+    background-color: palevioletred;
+    font-size: 25px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.featured{
+    margin-top: 150px;
+}
+.featured h1,p{
+    text-align: center;
+}
+.featured-flowers{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.featured-flowers img{
+    height: 428px;
+    width: 310px;
+    border-radius: 170px 170px 0 0;
+}
+.featured-flowers h3{
+    width: 150px;
+    border-bottom: 1px solid black;
+}
+.featured-flowers .image-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 464px;
+    height: 538px;
+}
+.first-pic{
+    background-color: pink;
+}
+.second-pic{
+    background-color: #0597A0;
+}
+.third-pic{
+    background-color: #477D11;
+}
