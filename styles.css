@@ -5,11 +5,15 @@ header{
     height: 850px;
     background-color: pink;
 }
-.banner{
+.banner, .hot-deal{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .banner .description{
+    margin-top: 170px;
+}
+.hot-deal .description{
     margin-top: 170px;
 }
 .banner h1{
@@ -64,3 +68,44 @@ button{
 .third-pic{
     background-color: #477D11;
 }
+.deal-pic{
+    width: 318px;
+    height: 420px;
+}
+.mid-banner{
+    height: 620px;
+    margin-top: 120px;
+}
+.mid-banner .description{
+    text-align: center;
+}
+.deal{
+    color: #E55473;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery img{
+    width: 300px;
+    height: 356px;
+}
+.insta-pics,.form,.input-form h1,p{
+    text-align: center;
+}
+.form{
+    position: relative;
+    height: 450px;
+    margin-top: 120px;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+}
+.e-mail{
+    width: 700px;
+    height: 54px;
+}
+.form-description{
+    position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
